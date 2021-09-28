@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #262636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.mapBox{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    background: #fff;
+}
+.mapBox iframe{
+    width: 95%;
+    height: 95%;
+}
